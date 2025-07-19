@@ -1,5 +1,6 @@
 name: CI/CD Pipeline
-
+- uses: actions/cache@v3
+- uses: actions/upload-artifact@v4
 on:
   push:
     branches: [main]
