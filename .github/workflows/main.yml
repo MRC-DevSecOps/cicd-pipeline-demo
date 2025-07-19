@@ -1,5 +1,5 @@
 name: CI/CD Pipeline
-uses: docker/build-push-action@v3
+- uses: docker/build-push-action@v3
 on:
   push:
     branches: [main]
